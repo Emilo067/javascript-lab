@@ -5,8 +5,6 @@ const next = document.getElementById('next')
 
 let currentActive = 1
 
-console.log(currentActive)
-
 next.addEventListener('click', () => {
     currentActive++
 
